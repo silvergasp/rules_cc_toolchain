@@ -1,4 +1,4 @@
-**NOTICE:** The mainline fork of this project has moved to [bazelembedded/bazel-embedded](https://github.com/bazelembedded/bazel-embedded). Please use the new remote urls for the bazel-embedded project, to remain up to date.
+**NOTICE:** The mainline fork of this project has moved to [bazelembedded/rules_cc_toolchain](https://github.com/bazelembedded/rules_cc_toolchain). Please use the new remote urls for the bazel-embedded project, to remain up to date.
 
 # rules_cc_toolchain
 [![CI](https://github.com/silvergasp/bazel_rules_cc_toolchain/actions/workflows/blank.yml/badge.svg)](https://github.com/silvergasp/bazel_rules_cc_toolchain/actions/workflows/blank.yml)
