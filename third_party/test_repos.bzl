@@ -40,10 +40,10 @@ def test_repos():
     if "com_google_protobuf" not in native.existing_rules():
         http_archive(
             name = "com_google_protobuf",
-            sha256 = "87407cd28e7a9c95d9f61a098a53cf031109d451a7763e7dd1253abf8b4df422",
-            strip_prefix = "protobuf-3.19.1",
+            sha256 = "2118051b4fb3814d59d258533a4e35452934b1ddb41230261c9543384cbb4dfc",
+            strip_prefix = "protobuf-3.22.2",
             urls = [
-                "https://mirror.bazel.build/github.com/protocolbuffers/protobuf/archive/v3.19.1.tar.gz",
-                "https://github.com/protocolbuffers/protobuf/archive/v3.19.1.tar.gz",
+                "https://mirror.bazel.build/github.com/protocolbuffers/protobuf/archive/v3.22.2.tar.gz",
+                "https://github.com/protocolbuffers/protobuf/archive/v3.22.2.tar.gz",
             ],
         )
